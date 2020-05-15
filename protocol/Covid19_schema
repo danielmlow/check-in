@@ -1,0 +1,35 @@
+{
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/sensein/covid19/master/protocol/Covid19_context"
+    ],
+    "@type": "reproschema:ActivitySet",
+    "@id": "wellbeing_schema",
+    "skos:prefLabel": "Wellbeing Protocol",
+    "schema:description": "Activity set for wellbeing protocol",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "schema:image": "https://raw.githubusercontent.com/sensein/covid19/master/protocol/mit_voice_pilot_applet_image.svg?sanitize=true",
+    "landingPage": "https://raw.githubusercontent.com/sensein/covid19/master/protocol/README-en.md",
+    "variableMap": [
+        {"variableName": "covid19_schema", "isAbout": "covid19_schema"},
+        {"variableName": "voice_schema", "isAbout": "voice_schema"},
+        {"variableName": "voice_opt_schema", "isAbout": "voice_opt_schema"},
+        {"variableName": "ThankYou_schema", "isAbout": "ThankYou_schema"}
+    ],
+    "ui": {
+        "order": [
+            "covid19_schema",
+            "voice_schema",
+            "voice_opt_schema",
+            "ThankYou_schema"
+        ],
+        "shuffle": false,
+        "displayNameMap": [
+            {"isAbout": "covid19_schema", "alternateName": {"en": "Covid survey"}},
+            {"isAbout": "voice_schema", "alternateName": {"en": "Voice Tasks"}},
+            {"isAbout": "voice_opt_schema", "alternateName": {"en": "Optional Voice Tasks"}},
+            {"isAbout": "ThankYou_schema", "alternateName": {"en": "ThankYou"}}
+        ],
+        "allow": ["autoAdvance", "allowExport"]
+    }
+}

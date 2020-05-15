@@ -1,0 +1,53 @@
+{
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "smoking_history",
+    "skos:prefLabel": "Smoking History",
+    "skos:altLabel": "smoking history",
+    "schema:description": "Smoking history",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "question": {
+        "en": "Do you smoke?",
+        "es": "¿Fuma?"
+    },
+    "responseOptions": {
+        "multipleChoice": false,
+        "choices": [
+            {
+                "value": 1,
+                "name": {
+                    "en": "I currently smoke",
+                    "es": "Fumo actualmente"
+                }},
+            {
+                "value": 2,
+                "name": {
+                    "en": "I used to smoke",
+                    "es": "Fumaba antes"
+
+                }},
+            {
+                "value": 3,
+                "name": {
+                    "en": "I have never smoked",
+                    "es": "Nunca fumé"
+
+                }}
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    }
+}
+
+
+
+
+
+
+
+
+
+

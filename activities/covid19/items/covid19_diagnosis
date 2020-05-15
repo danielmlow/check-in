@@ -1,0 +1,39 @@
+{
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "covid19_diagnosis",
+    "skos:prefLabel": "Covid19 Diagnosis",
+    "skos:altLabel": "covid19 diagnosis",
+    "schema:description": "COVID-19 diagnosis",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "question": {
+        "en": "Were you diagnosed with COVID-19?",
+        "es": "¿Fuiste diagnosticado con COVID-19?"
+    },
+    "responseOptions": {
+        "multipleChoice": false,
+        "choices": [
+            {
+                "value": 1,
+                "name": {
+                    "en": "Yes",
+                    "es": "Sí"
+                }
+            },
+            {
+                "value": 2,
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                }
+            }
+         ]
+    },
+    "ui": {
+        "inputType": "radio"
+    }
+}
+
+

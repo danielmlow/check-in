@@ -1,0 +1,37 @@
+{
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "covid19_status",
+    "skos:prefLabel": "Covid19 Status - tested",
+    "skos:altLabel": "covid19 status tested",
+    "schema:description": "COVID-19 diagnosis and suspicion status - tested",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "question": {
+        "en": "What is your current status?",
+        "es": "¿Cuál es tu estado actual?"
+    },
+    "responseOptions": {
+        "multipleChoice": false,
+        "choices": [
+            {
+                "value": 1,
+                "name": {
+                    "en": "Positive test: I had or have COVID-19",
+                    "es": "Test positivo: Tuve o tengo COVID-19"
+
+                }},
+            {
+                "value": 2,
+                "name": {
+                    "en": "Negative test: I did not have COVID-19",
+                    "es": "Test negativo: no tuve COVID-19"
+
+                }}
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    }
+}

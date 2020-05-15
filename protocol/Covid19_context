@@ -1,0 +1,23 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "activity_path": "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/",
+        "@language": "en",
+        "covid19_schema": {
+            "@id": "https://raw.githubusercontent.com/sensein/covid19/master/activity/covid19/covid19_schema",
+            "@type": "@id"
+        },
+        "voice_schema": {
+            "@id": "https://raw.githubusercontent.com/sensein/covid19/master/activity/voice/voice_schema",
+            "@type": "@id"
+        },
+        "voice_opt_schema": {
+            "@id": "https://raw.githubusercontent.com/sensein/covid19/master/activity/voice_opt/voice_schema",
+            "@type": "@id"
+        },
+        "ThankYou_schema": {
+            "@id": "activity_path:ThankYou/ThankYou_schema",
+            "@type": "@id"
+        }
+    }
+}

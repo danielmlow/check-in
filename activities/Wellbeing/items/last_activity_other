@@ -1,0 +1,18 @@
+{
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic" ],
+    "@type": "reproschema:Field",
+    "@id": "last_activity_other",
+    "skos:prefLabel": "Other last activity",
+    "schema:description": "Other last activity",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "question": "Briefly describe the activity please",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "requiredValue": false,
+        "valueType": "xsd:string",
+        "maxLength": 250
+    }
+}

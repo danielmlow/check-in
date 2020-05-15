@@ -1,0 +1,73 @@
+{
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/sensein/covid19/master/activity/covid19/covid19_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "covid19_schema",
+    "skos:prefLabel": "Covid19 survey questions",
+    "schema:description": "Covid19 survey questions",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "variableMap": [
+        {"variableName": "share_data", "isAbout": "share_data"},
+        {"variableName": "email", "isAbout": "email"},
+        {"variableName": "yob", "isAbout": "yob"},
+        {"variableName": "covid19_clinical_history", "isAbout": "covid19_clinical_history"},
+        {"variableName": "smoking_history", "isAbout": "smoking_history"},
+        {"variableName": "covid19_status", "isAbout": "covid19_status"},
+        {"variableName": "covid19_status_tested", "isAbout": "covid19_status_tested"},
+        {"variableName": "covid19_status_notTested", "isAbout": "covid19_status_notTested"},
+        {"variableName": "covid19_status_symptoms_positive", "isAbout": "covid19_status_symptoms_positive"},
+        {"variableName": "covid19_days", "isAbout": "covid19_days"},
+        {"variableName": "covid19_status_symptoms_negative", "isAbout": "covid19_status_symptoms_negative"},
+        {"variableName": "fever_positive", "isAbout": "fever_positive"},
+        {"variableName": "fever_negative", "isAbout": "fever_negative"},
+        {"variableName": "fever_c_or_f", "isAbout": "fever_c_or_f"}
+    ],
+    "ui": {
+        "order": [
+            "yob",
+            "share_data",
+            "email",
+            "covid19_clinical_history",
+            "smoking_history",
+            "covid19_status",
+
+            "covid19_status_tested",
+            "covid19_status_symptoms_positive",
+            "covid19_days",
+            "fever_positive",
+
+            "covid19_status_notTested",
+            "covid19_status_symptoms_negative",
+            "fever_negative",
+
+            "fever_c_or_f"
+        ],
+        "shuffle": false,
+        "visibility": [
+        {"variableName": "share_data", "isVis": true},
+        {"variableName": "email", "isVis": "share_data === 1"},
+        {"variableName": "yob", "isVis": true},
+        {"variableName": "covid19_clinical_history", "isVis": true},
+        {"variableName": "smoking_history", "isVis": true},
+        {"variableName": "covid19_status", "isVis": true},
+
+        {"variableName": "covid19_status_tested", "isVis": "covid19_status === 2"},
+        {"variableName": "covid19_status_symptoms_positive", "isVis": "covid19_status_tested === 1"},
+        {"variableName": "covid19_days", "isVis": "covid19_status_tested === 1"},
+        {"variableName": "fever_positive", "isVis": "covid19_status_tested === 1"},
+
+        {"variableName": "covid19_status_notTested", "isVis": "covid19_status === 1"},
+        {"variableName": "covid19_status_symptoms_negative", "isVis": "covid19_status === 1 || covid19_status_tested === 2"},
+        {"variableName": "fever_negative", "isVis": "covid19_status === 1 || covid19_status_tested === 2"},
+
+        {"variableName": "fever_c_or_f", "isVis": true}
+    ]
+    }
+
+}
+
+
+
+

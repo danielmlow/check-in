@@ -1,0 +1,37 @@
+{
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/sensein/covid19/master/activity/voice/voice_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "voice_schema",
+    "skos:prefLabel": "Covid19 voice tasks",
+    "schema:description": "Covid19 Voice tasks",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "preamble": {
+        "en": "For each task, you should hit the record button before speaking and then stop once you are done speaking. You may hit play to hear what was recorded."
+    },
+    "variableMap": [
+        {"variableName": "audio_check", "isAbout": "audio_check"},
+        {"variableName": "caterpillar_fast", "isAbout": "caterpillar_fast"},
+        {"variableName": "say_ah", "isAbout": "say_ah"},
+        {"variableName": "say_ng", "isAbout": "say_ng"},
+        {"variableName": "kmart_exhale", "isAbout": "kmart_exhale"},
+        {"variableName": "nasal_pinched", "isAbout": "nasal_pinched"}
+    ],
+    "ui": {
+        "order": [
+            "audio_check",
+            "caterpillar_fast",
+            "kmart_exhale",
+            "say_ah",
+            "say_ng",
+            "nasal_pinched"
+        ],
+        "shuffle": false
+    }
+}
+
+
+
+

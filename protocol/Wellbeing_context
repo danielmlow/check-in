@@ -1,0 +1,16 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "wellbeing_activities": "https://raw.githubusercontent.com/danielmlow/check-in/master/activity/",
+        "activity_path": "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/",
+        "@language": {"en","es"}
+        "Wellbeing_schema": {
+            "@id": "wellbeing_activities:Wellbeing/Wellbeing_schema",
+            "@type": "@id"
+        },
+        "ThankYou_schema": {
+            "@id": "activity_path:ThankYou/ThankYou_schema",
+            "@type": "@id"
+        }
+    }
+}

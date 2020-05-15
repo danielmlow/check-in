@@ -1,0 +1,22 @@
+{
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "deep_breath",
+    "skos:prefLabel": "Deep breaths",
+    "schema:description": "Characterization of breaths",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "preamble": "Hit record and do the following",
+    "question": "Inhalation for 4 seconds followed by exhalation for 4 seconds. Repeat this 4 times.",
+    "ui": {
+        "inputType": "audioPassageRecord"
+    },
+    "responseOptions": {
+        "type": "audioPassageRecord",
+        "schema:minValue": 0,
+        "schema:maxValue": 60000,
+        "requiredValue": true
+    }
+}
+

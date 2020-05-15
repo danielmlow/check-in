@@ -1,0 +1,29 @@
+{
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "covid19_symptoms",
+    "skos:prefLabel": "Covid19 Symptoms",
+    "skos:altLabel": "covid19 symptoms",
+    "schema:description": "Respiratory disease symptoms with focus on COVID19 symptoms",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "question": {
+        "en": "Highest fever before diagnosis.",
+        "es": "Indique la fiebre más alta antes del diagnóstico."
+        },
+    "ui": {
+        "inputType": "text"
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

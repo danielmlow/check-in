@@ -1,0 +1,119 @@
+{
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/danielmlow/check-in/master/activities/Wellbeing/Wellbeing_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "Wellbeing_schema",
+    "skos:prefLabel": "Wellbeing",
+    "schema:description": " Wellbeing Voice tasks",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    ],
+    "ui": {
+        "order": [
+            "share_data",
+            "first_time",
+            "last_activity",
+            "last_activity_other",
+            "last_activity_rating",
+            "record_or_write",
+            "multipart_audio_check",
+            "journaling_record",
+            "journaling_write",
+            "ema",
+            "PHQ9",
+            "GAD7",
+            "wellbeing_items",
+            "wellbeing_item_1",
+            "wellbeing_item_2",
+            "more_questions"
+        ],
+        "shuffle": false,
+        "addProperties": [
+            {
+                "isAbout": "share_data",
+                "variableName": "share_data",
+                "isVis": true
+            },
+            {
+                "isAbout": "first_time",
+                "variableName": "first_time",
+                "isVis": true
+            },
+            {
+                "isAbout": "last_activity",
+                "variableName": "last_activity",
+                "isVis": first_time === 0
+            },
+            {
+                "isAbout": "last_activity_other",
+                "variableName": "last_activity_other",
+                "isVis": last_activity === 11
+            },
+            {
+                "isAbout": "last_activity_rating",
+                "variableName": "last_activity_rating",
+                "isVis": first_time === 0
+            },
+            {
+                "isAbout": "record_or_write",
+                "variableName": "record_or_write",
+                "isVis": true
+            },
+            {
+                "isAbout": "multipart_audio_check",
+                "variableName": "multipart_audio_check",
+                "isVis": record_or_write == 0
+            },
+            {
+                "isAbout": "journaling_record",
+                "variableName": "journaling_record",
+                "isVis": record_or_write == 0
+            },
+            {
+                "isAbout": "journaling_write",
+                "variableName": "journaling_write",
+                "isVis": record_or_write == 1
+            },
+            {
+                "isAbout": "ema",
+                "variableName": "ema",
+                "isVis": true
+            },
+            {
+                "isAbout": "PHQ9",
+                "variableName": "PHQ9",
+                "isVis": (new Date().getDay()) === 5
+            },
+            {
+                "isAbout": "GAD7",
+                "variableName": "GAD7",
+                "isVis": (new Date().getDay()) === 5
+            },
+            {
+                "isAbout": "wellbeing_items",
+                "variableName": "wellbeing_items",
+                "isVis": true
+            },
+            {
+                "isAbout": "wellbeing_item_1",
+                "variableName": "wellbeing_item_1",
+                "isVis": wellbeing_items === 1
+            },
+            {
+                "isAbout": "wellbeing_item_2",
+                "variableName": "wellbeing_item_2",
+                "isVis": wellbeing_items === 2
+            },
+            {
+                "isAbout": "more_questions",
+                "variableName": "more_questions",
+                "isVis": true
+            }
+        ]
+    }
+}
+
+
+
+

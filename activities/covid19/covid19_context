@@ -1,0 +1,70 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "wellbeing": "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/Wellbeing/items/",
+        "nda": "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/NDA/items/",
+        "covid19": "https://raw.githubusercontent.com/sensein/covid19/master/activity/covid19/items/",
+        "share_data": {
+            "@id": "wellbeing:share_data",
+            "@type": "@id"
+        },
+        "email": {
+            "@id": "wellbeing:email",
+            "@type": "@id"
+        },
+        "yob": {
+            "@id": "nda:yearOfBirth",
+            "@type": "@id"
+        },
+        "covid19_clinical_history": {
+            "@id": "covid19:covid19_clinical_history",
+            "@type": "@id"
+        },
+        "smoking_history": {
+            "@id": "covid19:smoking_history",
+            "@type": "@id"
+        },
+        "covid19_status": {
+            "@id": "covid19:covid19_status",
+            "@type": "@id"
+        },
+        "covid19_status_tested": {
+            "@id": "covid19:covid19_status_tested",
+            "@type": "@id"
+        },
+        "covid19_status_notTested": {
+            "@id": "covid19:covid19_status_notTested",
+            "@type": "@id"
+        },
+        "covid19_diagnosis": {
+            "@id": "covid19:covid19_diagnosis",
+            "@type": "@id"
+        },
+        "covid19_days": {
+            "@id": "covid19:covid19_days",
+            "@type": "@id"
+        },
+        "covid19_status_symptoms_positive": {
+            "@id": "covid19:covid19_status_symptoms_positive",
+            "@type": "@id"
+        },
+        "covid19_status_symptoms_negative": {
+            "@id": "covid19:covid19_status_symptoms_negative",
+            "@type": "@id"
+        },
+        "fever_positive": {
+            "@id": "covid19:fever_positive",
+            "@type": "@id"
+        },
+        "fever_negative": {
+            "@id": "covid19:fever_negative",
+            "@type": "@id"
+        },
+        "fever_c_or_f": {
+            "@id": "covid19:fever_c_or_f",
+            "@type": "@id"
+        }
+    }
+}
+
+

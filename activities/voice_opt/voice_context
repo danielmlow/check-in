@@ -1,0 +1,94 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "voice_tasks": "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/VoiceTask/items/",
+        "wellbeing": "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/Wellbeing/items/",
+        "voice_opt": "https://raw.githubusercontent.com/sensein/covid19/master/activity/voice_opt/items/",
+        "share_data": {
+            "@id": "wellbeing:share_data",
+            "@type": "@id"
+        },
+        "email": {
+            "@id": "wellbeing:email",
+            "@type": "@id"
+        },
+        "free_speech_general_mood": {
+            "@id": "voice_tasks:free_speech_general_mood",
+            "@type": "@id"
+        },
+        "caterpillar": {
+            "@id": "voice_tasks:caterpillar",
+            "@type": "@id"
+        },
+        "pataka": {
+            "@id": "voice_tasks:pataka",
+            "@type": "@id"
+        },
+        "say_ah": {
+            "@id": "voice_opt:say_ah",
+            "@type": "@id"
+        },
+        "say_ee": {
+            "@id": "voice_opt:say_ee",
+            "@type": "@id"
+        },
+        "say_oo": {
+            "@id": "voice_opt:say_oo",
+            "@type": "@id"
+        },
+        "caterpillar_fast": {
+            "@id": "voice_opt:caterpillar_fast",
+            "@type": "@id"
+        },
+        "say_n": {
+            "@id": "voice_opt:say_n",
+            "@type": "@id"
+        },
+        "say_ng": {
+            "@id": "voice_opt:say_ng",
+            "@type": "@id"
+        },
+        "say_m": {
+            "@id": "voice_opt:say_m",
+            "@type": "@id"
+        },
+        "coughs": {
+            "@id": "voice_opt:coughs",
+            "@type": "@id"
+        },
+        "deep_breath": {
+            "@id": "voice_opt:deep_breath",
+            "@type": "@id"
+        },
+        "free_speech_food": {
+            "@id": "voice_opt:free_speech_food",
+            "@type": "@id"
+        },
+        "kmart_exhale": {
+            "@id": "voice_opt:kmart_exhale",
+            "@type": "@id"
+        },
+        "kmart_inhale": {
+            "@id": "voice_opt:kmart_inhale",
+            "@type": "@id"
+        },
+        "kmart_natural": {
+            "@id": "voice_opt:kmart_natural",
+            "@type": "@id"
+        },
+        "nasal_high": {
+            "@id": "voice_opt:nasal_high",
+            "@type": "@id"
+        },
+        "nasal_pinched": {
+            "@id": "voice_opt:nasal_pinched",
+            "@type": "@id"
+        },
+        "multipart_audio_check": {
+            "@id": "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/VoiceScreening/multipart_audio_check",
+            "@type": "@id"
+        }
+    }
+}
+
+

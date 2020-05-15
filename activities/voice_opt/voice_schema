@@ -1,0 +1,49 @@
+{
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/sensein/covid19/master/activity/voice_opt/voice_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "voice_schema",
+    "skos:prefLabel": "Covid19 voice tasks (optional)",
+    "schema:description": "Optional Covid19 Voice tasks",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "preamble": {
+        "en": "For each task, you should hit the record button before speaking and then stop once you are done speaking. You may hit play to hear what was recorded."
+    },
+    "variableMap": [
+        {"variableName": "free_speech_general_mood", "isAbout": "free_speech_general_mood"},
+        {"variableName": "say_ee", "isAbout": "say_ee"},
+        {"variableName": "say_oo", "isAbout": "say_oo"},
+        {"variableName": "pataka", "isAbout": "pataka"},
+        {"variableName": "say_n", "isAbout": "say_n"},
+        {"variableName": "say_m", "isAbout": "say_m"},
+        {"variableName": "coughs", "isAbout": "coughs"},
+        {"variableName": "deep_breath", "isAbout": "deep_breath"},
+        {"variableName": "free_speech_food", "isAbout": "free_speech_food"},
+        {"variableName": "kmart_inhale", "isAbout": "kmart_inhale"},
+        {"variableName": "kmart_natural", "isAbout": "kmart_natural"},
+        {"variableName": "nasal_high", "isAbout": "nasal_high"}
+    ],
+    "ui": {
+        "order": [
+            "free_speech_general_mood",
+            "kmart_natural",
+            "kmart_inhale",
+            "nasal_high",
+            "say_ee",
+            "say_oo",
+            "say_m",
+            "say_n",
+            "free_speech_food",
+            "coughs",
+            "deep_breath",
+            "pataka"
+        ],
+        "shuffle": false
+    }
+}
+
+
+
+

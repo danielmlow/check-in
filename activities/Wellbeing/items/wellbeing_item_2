@@ -1,0 +1,26 @@
+{
+"@context": [
+"https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+],
+"@type": "reproschema:Field",
+"@id": "journal_write",
+"skos:prefLabel": "journal_write",
+"schema:description": "journal_write",
+"schema:schemaVersion": "0.0.1",
+"schema:version": "0.0.1",
+"question": {
+"en": "Tell me how you're feeling now with as much detail as possible and tell me what are important things happening in your life.
+You can also tell me about a positive activity you did and how it made you feel.",
+"es": "Cuente cómo se siente y por qué piensa que se siente de ese modo con el mayor detalle y profundidad posible."
+},
+"ui": {
+    "inputType": "email"
+},
+"responseOptions": {
+    "requiredValue": true,
+    "valueType": "xsd:string",
+    "maxLength": 20000
+}
+}
+
+}

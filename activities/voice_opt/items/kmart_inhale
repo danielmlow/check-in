@@ -1,0 +1,21 @@
+{
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "kmart_inhale",
+    "skos:prefLabel": "Kmart sentences (Inhale version)",
+    "schema:description": "K-mart sentences read after inhaling and then within one exhale .",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "preamble": "Hit record. Inhale and in one exhalation, read the sentences.",
+    "question": "The girl was thirsty and drank some juice, followed by a coke. Your good pants look great, however, your ripped pants look like a cheap version of K-mart special.  Is that oil staining on them?",
+    "ui": {
+        "inputType": "audioPassageRecord"
+    },
+    "responseOptions": {
+        "type": "audioPassageRecord",
+        "schema:minValue": 0,
+        "schema:maxValue": 20000,
+        "requiredValue": true
+    }
+}

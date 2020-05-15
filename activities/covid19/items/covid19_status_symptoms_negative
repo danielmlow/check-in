@@ -1,0 +1,110 @@
+{
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "covid19_status_symptoms_negative",
+    "skos:prefLabel": "Covid19 Symptoms - negative",
+    "skos:altLabel": "covid19 symptoms negative",
+    "schema:description": "Respiratory disease symptoms with focus on COVID19 symptoms - negative",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "question": {
+        "en": "Are you currently experiencing any of the following symptoms?",
+        "es": "¿Está experimentando alguno de los siguientes síntomas?"
+    },
+    "responseOptions": {
+        "multipleChoice": true,
+        "choices": [
+            {
+                "value": 1,
+                "name": {
+                    "en": "Fever",
+                    "es": "Fiebre"
+                }},
+            {
+                "value": 2,
+                "name": {
+                    "en": "Tiredness",
+                    "es": "Cansancio"
+
+                }},
+            {
+                "value": 3,
+                "name": {
+                    "en": "Headache",
+                    "es": "Dolor de cabeza"
+
+                }},
+            {
+                "value": 4,
+                "name": {
+                    "en": "Sore throat",
+                    "es": "Dolor de garganta"
+
+                }},
+            {
+                "value": 5,
+                "name": {
+                    "en": "Difficulty breathing",
+                    "es": "Dificultad para respirar"
+
+                }},
+            {
+                "value": 6,
+                "name": {
+                    "en": "Cough with mucus",
+                    "es": "Tos con moco"
+
+                }},
+            {
+                "value": 7,
+                "name": {
+                    "en": "Dry cough (without mucus)",
+                    "es": "Tos seca (sin moco)"
+
+                }},
+            {
+                "value": 8,
+                "name": {
+                    "en": "Loss of smell",
+                    "es": "Pérdida del olfato"
+
+                }},
+            {
+                "value": 9,
+                "name": {
+                    "en": "Stuffy or runny nose",
+                    "es": "Nariz tapada o goteante"
+
+                }},
+            {
+                "value": 10,
+                "name": {
+                    "en": "Diarrhea",
+                    "es": "Diarrea"
+
+                }},
+            {
+                "value": 11,
+                "name": {
+                    "en": "Persistent pain or pressure in the chest",
+                    "es": "Dolor o presión persistente en el pecho"
+
+                }}
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

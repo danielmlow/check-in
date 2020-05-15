@@ -1,0 +1,73 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "voice_tasks": "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/VoiceTask/items/",
+        "Wellbeing_items": "https://raw.githubusercontent.com/danielmlow/check-in/master/activities/Wellbeing/items/",
+        "reproschema_activities": "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/",
+        "share_data": {
+            "@id": "Wellbeing_items:share_data",
+            "@type": "@id"
+        },
+        "first_time": {
+            "@id": "Wellbeing_items:first_time",
+            "@type": "@id"
+        },
+        "last_activity": {
+            "@id": "Wellbeing_items:last_activity",
+            "@type": "@id"
+        },
+        "last_activity_other": {
+            "@id": "Wellbeing_items:last_activity_other",
+            "@type": "@id"
+        },
+        "last_activity_rating": {
+            "@id": "Wellbeing_items:last_activity_rating",
+            "@type": "@id"
+        },
+        "record_or_write": {
+            "@id": "Wellbeing_items:record_or_write",
+            "@type": "@id"
+        },
+        "multipart_audio_check": {
+            "@id": "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/VoiceScreening/multipart_audio_check",
+            "@type": "@id"
+        },
+        "journaling_record": {
+            "@id": "Wellbeing_items:journaling_record",
+            "@type": "@id"
+        },
+        "journaling_write": {
+            "@id": "Wellbeing_items:journaling_write",
+            "@type": "@id"
+        },
+        "ema": {
+            "@id": "Wellbeing_items:ema",
+            "@type": "@id"
+        },
+        "PHQ9": {
+            "@id": "reproschema_activities:PHQ-9/PHQ9_schema",
+            "@type": "@id"
+        },
+        "GAD7": {
+            "@id": "reproschema_activities:GAD7/GAD7_schema",
+            "@type": "@id"
+        },
+        "wellbeing_items": {
+            "@id": "Wellbeing_items:wellbeing_items",
+            "@type": "@id"
+        },
+        "wellbeing_item_1": {
+            "@id": "Wellbeing_items:wellbeing_item_1",
+            "@type": "@id"
+        },
+        "wellbeing_item_2": {
+            "@id": "Wellbeing_items:wellbeing_item_2",
+            "@type": "@id"
+        },
+        "more_questions": {
+            "@id": "Wellbeing_items:more_questions",
+            "@type": "@id"
+        }
+    }
+}
+

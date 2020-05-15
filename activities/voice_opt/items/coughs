@@ -1,0 +1,22 @@
+{
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "coughs",
+    "skos:prefLabel": "Coughs",
+    "schema:description": "Characterization of coughs",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "preamble": "Hit record and do the following",
+    "question": "Inhale, cough 3 times. Repeat twice.",
+    "ui": {
+        "inputType": "audioPassageRecord"
+    },
+    "responseOptions": {
+        "type": "audioPassageRecord",
+        "schema:minValue": 0,
+        "schema:maxValue": 15000,
+        "requiredValue": true
+    }
+}
+

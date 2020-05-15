@@ -1,0 +1,29 @@
+{
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic" ],
+    "@type": "reproschema:Field",
+    "@id": "first_time",
+    "skos:prefLabel": "first_time",
+    "schema:description": "first_time",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "question": "Is today your first day of the challenge?",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "schema:minValue": 0,
+        "schema:maxValue": 1,
+        "multipleChoice": false,
+        "requiredValue": true,
+        "choices": [{
+            "name": "Yes",
+            "value": 1
+        },
+        {
+            "name": "No",
+            "value": 0
+        }
+        ]
+    }
+}

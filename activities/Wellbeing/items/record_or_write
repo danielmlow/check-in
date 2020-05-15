@@ -1,0 +1,29 @@
+{
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic" ],
+    "@type": "reproschema:Field",
+    "@id": "record_or_write",
+    "skos:prefLabel": "record_or_write",
+    "schema:description": "record_or_write",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "question": "Will you journal by recording your voice (recommended) or by typing?",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "schema:minValue": 0,
+        "schema:maxValue": 1,
+        "multipleChoice": false,
+        "requiredValue": true,
+        "choices": [{
+            "name": "Typing",
+            "value": 1
+        },
+        {
+            "name": "Recording my voice",
+            "value": 0
+        }
+        ]
+    }
+}

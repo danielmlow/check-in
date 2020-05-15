@@ -1,0 +1,39 @@
+{
+"@context": [
+"https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+],
+"@type": "reproschema:Field",
+"@id": "wellbeing_item_1",
+"skos:prefLabel": "wellbeing_item_1",
+"schema:description": "wellbeing_item_1",
+"schema:schemaVersion": "0.0.1",
+"schema:version": "0.0.1",
+"preamble": {
+"en": "
+Perform one act of kindness
+
+Time: 10-45m+
+
+Instruction: In our daily lives, we all perform acts of kindness for others. You’re free to choose anything you wish, big or small, but it should be something you would not have normally done:
+
+
+
+",
+"es": "Cuente cómo se siente y por qué piensa que se siente de ese modo con el mayor detalle y profundidad posible."
+},
+
+"question": {
+"en": "Other",
+"es": "Otro"
+},
+"ui": {
+    "inputType": "text"
+},
+"responseOptions": {
+    "requiredValue": false,
+    "valueType": "xsd:string",
+    "maxLength": 200000
+}
+}
+
+}

@@ -1,0 +1,110 @@
+{
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "more_questions",
+    "skos:prefLabel": "more_questions",
+    "skos:altLabel": "more_questions",
+    "schema:description": "more_questions",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "question": {
+        "en": "Click?",
+        "es": "Indique los síntomas que tuvo antes de ser testeado(a)."
+    },
+    "responseOptions": {
+        "multipleChoice": true,
+        "choices": [
+            {
+                "value": 1,
+                "name": {
+                    "en": "Happiness (1 min)",
+                    "es": "Fiebre"
+                }},
+            {
+                "value": 2,
+                "name": {
+                    "en": "Personality (5 minutes)",
+                    "es": "Cansancio"
+
+                }},
+            {
+                "value": 3,
+                "name": {
+                    "en": "Bipolar (2 min)",
+                    "es": "Dolor de cabeza"
+
+                }},
+            {
+                "value": 4,
+                "name": {
+                    "en": "Self affirmation",
+                    "es": "Dolor de garganta"
+
+                }},
+            {
+                "value": 5,
+                "name": {
+                    "en": "etc",
+                    "es": "Dificultad para respirar"
+
+                }},
+            {
+                "value": 6,
+                "name": {
+                    "en": "etc",
+                    "es": "Tos con moco"
+
+                }},
+            {
+                "value": 7,
+                "name": {
+                    "en": "etc",
+                    "es": "Tos seca (sin moco)"
+
+                }},
+            {
+                "value": 8,
+                "name": {
+                    "en": "etc",
+                    "es": "Pérdida del olfato"
+
+                }},
+            {
+                "value": 9,
+                "name": {
+                    "en": "etc",
+                    "es": "Nariz tapada o goteante"
+
+                }},
+            {
+                "value": 10,
+                "name": {
+                    "en": "etc",
+                    "es": "Diarrea"
+
+                }},
+            {
+                "value": 11,
+                "name": {
+                    "en": "Other",
+                    "es": "Otro"
+
+                }}
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
